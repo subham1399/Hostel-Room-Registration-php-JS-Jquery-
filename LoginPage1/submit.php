@@ -19,7 +19,7 @@ session_start();
 				$floor=$_POST['Floor'];
 				$branch=$_POST['Branch'];
 				$mess=$_POST['Mess'];
-				$query_update="UPDATE user1 SET roomates='$roomates',type='$type',floor='$floor',branch='$branch',mess='$mess' WHERE username='$_SESSION[username]'";
+				$query_update="UPDATE user1 SET `roomates`='$roomates',`type`='$type',`floor`='$floor',`branch`='$branch',`mess`='$mess' WHERE username='$_SESSION[username]'";
 				$query_update_run = mysqli_query($con,$query_update);
 				if($query_update_run)
 				{

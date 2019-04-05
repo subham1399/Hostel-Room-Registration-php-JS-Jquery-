@@ -95,7 +95,7 @@ body {
 #navbar a {
   float:left;
   display:inline-block;
-  color: #f2f2f2;
+  color: blue;
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -153,8 +153,8 @@ body {
   color: white;
 }
 #navbar a:hover {
-  background-color:blue;
-  color: black;
+  background-color:white;
+  color: yellow;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;

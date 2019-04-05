@@ -25,7 +25,6 @@
 				<button class="login_button" name="login" type="submit">Login</button>
 			</div>
 		</form>
-		
 		<?php
 			if(isset($_POST['login']))
 			{
